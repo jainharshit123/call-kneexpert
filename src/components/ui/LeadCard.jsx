@@ -4,7 +4,7 @@ import { useLeadStore } from "../../store/leadStore";
 import { FiPhone, FiShare2, FiCheckSquare } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 import IconButton from "./IconButton";
-import useCountdown from "../../hooks/useCountdown";
+import useCountdown from "../../hooks/useCountDown";
 
 const priorityStyles = {
   High: "border-l-red-light",
